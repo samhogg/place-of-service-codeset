@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "Professional claim place of service codes sourced from CMS",
   "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "prepublish": "node build.js"
+  },
   "repository": "git@github.com:samhogg/place-of-service-codesets.git",
   "author": "Sam Hogg <sam.hogg@orionhealth.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "x-ray": "^2.3.1"
+  }
 }
