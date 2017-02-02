@@ -29,3 +29,7 @@ console.log(pharmacy)
 ## Rebuilding `codes.json`
 
 Run `npm build` and the script will scrape the [source document](https://www.cms.gov/Medicare/Coding/place-of-service-codes/Place_of_Service_Code_Set.html) and create a fresh json source file.
+
+## Source
+
+https://www.cms.gov/Medicare/Coding/place-of-service-codes/Place_of_Service_Code_Set.html
