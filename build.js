@@ -23,5 +23,5 @@ x(
       placeOfServiceCode: line.code.trim(),
       placeOfServiceName: line.fields[0].replace(/[/\n]/gm, ' ').replace(/\*/g, '').trim(),
       placeOfServiceDescription: line.fields[1].replace(/[/\n]/gm, ' ').trim()
-    })), null, 4))
+    }))))
 })
