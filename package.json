@@ -1,6 +1,6 @@
 {
   "name": "place-of-service-codeset",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Professional claim place of service codes sourced from CMS",
   "main": "index.js",
   "scripts": {
