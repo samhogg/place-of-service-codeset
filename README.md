@@ -4,7 +4,7 @@ Professional claim place of service codes sourced from CMS
 
 ## Installing
 
-`npm install place-of-service-codes`
+`npm install place-of-service-codeset`
 
 ## Usage
 
