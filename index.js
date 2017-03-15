@@ -8,7 +8,7 @@ function pad (code) {
 
 module.exports = function placeOfServiceCode (code) {
   var filtered = poscJSON.filter(function (d) {
-    return d.placeOfServiceCode === (typeof code === 'string' ? code : pad(code))
+    return d.placeOfServiceCode === pad(code)
   })
   return filtered.length > 0 ? filtered[0] : null
 }
